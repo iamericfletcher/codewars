@@ -2,7 +2,7 @@
 
 function setAlarm(employed, vacation){
     // If logic condition is met, return true. 
-    if (employed == true && vacation == false) {
+    if (employed === true && vacation === false) {
         return true;
     // Otherwise, return false. 
     } else {
@@ -15,7 +15,7 @@ function setAlarm(employed, vacation){
 
 function setAlarm2(employed, vacation){
     // Return true if logical condition is met. Otherwise, return false. 
-    return(employed == true && vacation == false)
+    return(employed === true && vacation === false)
 }
 
 // Using Quokka to run the code inside of VS Code for solution 1.
