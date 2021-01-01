@@ -43,4 +43,4 @@ const quarterOf2 = (month) => {
 };
 
 
-console.log(quarterOf2(4))
+console.log(quarterOf2(9))
